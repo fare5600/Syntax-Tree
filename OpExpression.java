@@ -1,4 +1,4 @@
-public class OpExpression extends Expression 
+public class OpExpression 
 {
 	private char theOp;
 	
@@ -6,8 +6,9 @@ public class OpExpression extends Expression
 	{
 		this.theOp = theOp;
 	}
-
-	public OpExpression(String op) {
-		// TODO Auto-generated constructor stub
+	
+	public String toString()
+	{
+		return "" + theOp;
 	}
 }

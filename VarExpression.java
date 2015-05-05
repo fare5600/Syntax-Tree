@@ -1,4 +1,3 @@
-
 public class VarExpression extends Expression
 {
 	private String varName;
@@ -6,5 +5,10 @@ public class VarExpression extends Expression
 	public VarExpression(String varName)
 	{
 		this.varName = varName;
+	}
+	
+	public String toString()
+	{
+		return varName;
 	}
 }
